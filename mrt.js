@@ -414,5 +414,8 @@ function delTrip() {
     if (curRow > 1) {
         curRow -= 1;
         document.getElementById("dt").deleteRow(curRow);
+	document.getElementById("trips").innerHTML = "累計搭乘次數：";
+        document.getElementById("ovlCost").innerHTML = "總花費：";
+        document.getElementById("msg").innerHTML = "1280定期票";
     }
 }
