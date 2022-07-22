@@ -208,11 +208,13 @@ option {
 .O {
     background-color: #f8b61c;
     border-color: #f8b61c;
+    color: black;
 }
 
 .BR {
     background-color: #c48c31;
     border-color: #c48c31;
+    color: black;
 }
 
 .R {
@@ -236,6 +238,17 @@ option {
 .Y {
     background-color: #ffdb00;
     border-color: #ffdb00;
+    color: black;
 }
 
+/*Footer*/
+#footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+}
 
+footer a {
+    text-decoration: none;
+}
